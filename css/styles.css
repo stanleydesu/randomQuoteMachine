@@ -86,13 +86,9 @@ a {
 
 @media screen and (max-width: 650px), screen and (max-height: 600px) {
   #quote-box {
-    font-size: 16px;
+  	font-size: 20px;
     min-width: 80vw;
     min-height: 80vh;
-  }
-
-  #author {
-    font-size: 14px;
   }
 
   a {
