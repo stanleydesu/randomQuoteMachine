@@ -49,6 +49,7 @@ body {
 	margin-top: 1em;
 	width: 100%;
 	text-align: right;
+  margin-bottom: 4em;
 }
 
 button:focus {
@@ -86,11 +87,18 @@ a {
 @media screen and (max-width: 650px), screen and (max-height: 600px) {
 	#quote-box {
 		font-size: 16px;
-		min-width: 70vw;
-    		min-height: 60vh;
+		min-width: 80vw;
+    min-height: 80vh;
 	}
 
 	#author {
 		font-size: 14px;
 	}
+  
+  a {
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    margin-top: 3em;
+  }
 }
