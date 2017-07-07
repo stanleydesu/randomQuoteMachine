@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Random Quote Machine</title>
+		<link rel="stylesheet" href="styles.css" type="text/css">
+		<!-- font awesome icons -->
+		<link href="https://use.fontawesome.com/51961d7c9c.css" media="all" rel="stylesheet">
+	</head>
+	<body>
+		<!-- quote box -->
+		<div id='quote-box'>
+			<div class='wrapper'>
+				<!-- quote type -->
+				<div class='programming'>programming quotes</div>
+			</div>
+			<div class='wrapper'>
+				<!-- quote holder -->
+				<div id='quote' data-id="">
+				</div>
+				<!-- author holder -->
+				<div id='author'>
+				</div>
+			</div>
+			<div class='bot wrapper'>
+				<!-- tweet button (anchor styled to appear as button) -->
+				<a  href="#"
+					data-text=""
+					data-url="https://dev.twitter.com/web/tweet-button"
+					data-hashtags="programming,quotes,programmingquotes,knowledge"
+					id='tweet'>
+					<i class="fa fa-twitter" aria-hidden="true"></i>
+				</a>
+				<!-- new quote button -->
+				<a href='javascript:void(0);' id='next'>
+					<i class="fa fa-angle-double-right" aria-hidden="true"></i>
+				</a>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
