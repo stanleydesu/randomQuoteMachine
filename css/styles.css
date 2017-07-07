@@ -88,17 +88,17 @@ a {
 	#quote-box {
 		font-size: 16px;
 		min-width: 80vw;
-    min-height: 80vh;
+    		min-height: 80vh;
 	}
 
 	#author {
 		font-size: 14px;
 	}
   
-  a {
-    width: 2em;
-    height: 2em;
-    line-height: 2em;
-    margin-top: 3em;
-  }
+	a {
+	    	width: 2em;
+	   	height: 2em;
+	   	line-height: 2em;
+	   	margin-top: 3em;
+	}
 }
