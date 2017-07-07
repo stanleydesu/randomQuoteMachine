@@ -5,14 +5,13 @@
 body {
   margin: 0;
   background: var(--color);
-  transition: background-color 0.5s;
 }
 
 #quote-box {
   color: var(--color);
   position: absolute;
   background: white;
-  font-family: 'Helvetica Neue';
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 20px;
   top: 50%;
   left: 50%;
@@ -25,7 +24,7 @@ body {
 
 .programming {
   color: var(--color);
-  font-family: "Helvetica Neue";
+  font-family: "Helvetica Neue", sans-serif;
   font-weight: lighter;
   font-size: 26px;
   text-align: center;
