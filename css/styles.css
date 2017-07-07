@@ -33,7 +33,7 @@ body {
 }
 
 .wrapper {
-  margin: 1em 0;
+  margin: 0.5em 0;
   position: relative;
 }
 
@@ -46,10 +46,10 @@ body {
 #author {
   font-size: 16px;
   font-style: oblique;
-  margin-top: 1em;
+  margin-top: 0.5em;
   width: 100%;
   text-align: right;
-  margin-bottom: 4em;
+  margin-bottom: 3em;
 }
 
 button:focus {
@@ -86,7 +86,7 @@ a {
 
 @media screen and (max-width: 650px), screen and (max-height: 600px) {
   #quote-box {
-    font-size: 18px;
+    font-size: 16px;
     min-width: 80vw;
     min-height: 80vh;
   }
