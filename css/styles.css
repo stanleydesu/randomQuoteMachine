@@ -1,104 +1,104 @@
 :root {
-	--color: ;
+  --color: ;
 }
 
 body {
-	margin: 0;
-	background: var(--color);
-	transition: background-color 0.5s;
+  margin: 0;
+  background: var(--color);
+  transition: background-color 0.5s;
 }
 
 #quote-box {
-	color: var(--color);
-	position: absolute;
-	background: white;
-	font-family: 'Helvetica Neue';
-	font-size: 20px;
-	top: 50%;
-	left: 50%;
-	min-width: 70vw;
-	min-height: 50vh;
-	transform: translate(-50%, -50%);
-	border-radius: 5px;
-	padding: 3vw;
+  color: var(--color);
+  position: absolute;
+  background: white;
+  font-family: 'Helvetica Neue';
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  min-width: 70vw;
+  min-height: 50vh;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  padding: 3vw;
 }
 
 .programming {
-	color: var(--color);
-	font-family: "Helvetica Neue";
-	font-weight: lighter;
-	font-size: 26px;
-	text-align: center;
-	width: 100%;
+  color: var(--color);
+  font-family: "Helvetica Neue";
+  font-weight: lighter;
+  font-size: 26px;
+  text-align: center;
+  width: 100%;
 }
 
 .wrapper {
-	margin: 1em 0;
-	position: relative;
+  margin: 1em 0;
+  position: relative;
 }
 
 .bot {
-	margin-bottom: 3vw;
-	bottom: 0;
-	position: absolute;
+  margin-bottom: 3vw;
+  bottom: 0;
+  position: absolute;
 }
 
 #author {
-	font-size: 16px;
-	font-style: oblique;
-	margin-top: 1em;
-	width: 100%;
-	text-align: right;
+  font-size: 16px;
+  font-style: oblique;
+  margin-top: 1em;
+  width: 100%;
+  text-align: right;
   margin-bottom: 4em;
 }
 
 button:focus {
-	outline: 0;
+  outline: 0;
 }
 
 a {
-	background: var(--color);
-	color: white;
-	display: inline-block;
-	cursor: pointer;
-	text-decoration: none;
-	text-align: center;
-	transition: color 0.5s, border-color 0.5s, background 0.5s;
-	border: 3px solid transparent;
-	line-height: 3em;
-	border-radius: 5px;
-	font-size: 20px;
-	width: 3em;
-	height: 3em;
-	bottom: 0;
+  background: var(--color);
+  color: white;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition: color 0.5s, border-color 0.5s, background 0.5s;
+  border: 3px solid transparent;
+  line-height: 3em;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 3em;
+  height: 3em;
+  bottom: 0;
 }
 
 #next {
-	left: 4em;
+  left: 4em;
 }
 
 #next:hover, #tweet:hover {
-	color: var(--color);
-	border-color: var(--color);
-	background: white;
+  color: var(--color);
+  border-color: var(--color);
+  background: white;
 }
 
 
 @media screen and (max-width: 650px), screen and (max-height: 600px) {
-	#quote-box {
-		font-size: 16px;
-		min-width: 80vw;
-    		min-height: 80vh;
-	}
+  #quote-box {
+    font-size: 16px;
+    min-width: 80vw;
+    min-height: 80vh;
+  }
 
-	#author {
-		font-size: 14px;
-	}
-  
-	a {
-	    	width: 2em;
-	   	height: 2em;
-	   	line-height: 2em;
-	   	margin-top: 3em;
-	}
+  #author {
+    font-size: 14px;
+  }
+
+  a {
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    margin-top: 3em;
+  }
 }
