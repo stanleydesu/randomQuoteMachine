@@ -86,7 +86,7 @@ a {
 
 @media screen and (max-width: 650px), screen and (max-height: 600px) {
   #quote-box {
-  	font-size: 20px;
+    font-size: 18px;
     min-width: 80vw;
     min-height: 80vh;
   }
