@@ -1,2 +1,3 @@
 # Random Quote Machine
-Random Quote Machine, featuring programming quotes
+View here: https://stanley-su.github.io/randomQuoteMachine/  
+Or here: https://codepen.io/stanleysu/full/WOJgEr/
